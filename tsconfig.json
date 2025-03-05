@@ -105,6 +105,8 @@
     "**/*.tsx"
   ],
   "exclude": [
-    "node_modules"
+    "node_modules",
+    ".next",
+    "scripts" // <--- exclude your scripts folder
   ]
 }
